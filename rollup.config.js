@@ -209,7 +209,7 @@ export default cliargs => [
     plugins: [
       alias({
         'video.js': path.resolve(__dirname, './src/js/video.js'),
-        '@videojs/http-streaming': path.resolve(__dirname, './node_modules/@videojs/http-streaming/dist/videojs-http-streaming.es.js')
+        '@jontsnz/http-streaming': path.resolve(__dirname, './node_modules/@jontsnz/http-streaming/dist/videojs-http-streaming.es.js')
       }),
       replace({
         // single quote replace

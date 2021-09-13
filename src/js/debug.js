@@ -1,5 +1,5 @@
 import videojs from './video';
-import '@videojs/http-streaming';
+import '@jontsnz/http-streaming';
 import DomData from './utils/dom-data.js';
 
 videojs.DomData = DomData;
